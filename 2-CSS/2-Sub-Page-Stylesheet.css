@@ -1,0 +1,115 @@
+body#origocash a.page-origocash,
+body#manualcash a.page-manualcash,
+body#equisoftspecie a.page-equisoft,
+body#manualspecie a.page-manualspecie {
+  background-color: #984fe0;
+}
+
+section.process-container {
+  background: #ddd;
+  width: 100%;
+  height: 100vh;
+}
+/* ================= PAGE TITLE ================= */
+.page-title {
+  text-align: center;
+}
+/* .titlerow h1 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-bottom: 5px orangered solid;
+  display: inline-block;
+  padding: 50px 0px 10px;
+} */
+.titlerow h1 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  border-bottom: 5px orangered solid;
+}
+.titlerow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.titlerow img {
+  width: 50px;
+  height: auto;
+}
+.page-title p {
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  padding: 0px 10%;
+}
+
+/* ================= TABLE CONTAINER  ================= */
+
+table {
+  width: 85%;
+  height: auto;
+  border-collapse: collapse;
+  /* background-color: #6867c0; */
+  margin: 0 auto 50px;
+  table-layout: fixed;
+}
+thead th {
+  background-color: #984fe0;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0px;
+}
+tbody td {
+  padding: 5px;
+}
+tr {
+  border: solid 2px #984fe0;
+}
+
+/* ===== Individual Cards ===== */
+
+.striped tr:nth-child(n + 2):nth-child(even) {
+  background-color: #eeeef3;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+td:nth-child(2) {
+  text-transform: capitalize;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 70px;
+  white-space: nowrap;
+  /* background: red; */
+  padding-right: 40px;
+  text-align: center;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 130px;
+  white-space: wrap;
+  /* text-align: center; */
+  /* background: #74746a; */
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 300px;
+  white-space: wrap;
+  padding-right: 40px;
+  /* background: red; */
+}
+th:nth-child(4),
+td:nth-child(4) {
+  width: 250px;
+  /* white-space: nowrap; */
+}
+
+tr td:hover {
+  background-color: #fbffc6;
+}
